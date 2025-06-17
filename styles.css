@@ -116,3 +116,46 @@ a {
   text-decoration: none;
   font-weight: 600;
 }
+
+@media (max-width: 600px) {
+  .login-box {
+    width: 90%;
+    padding: 30px 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+    gap: 8px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .icon-cerebro {
+    width: 28px;
+    height: 28px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  form label {
+    font-size: 13px;
+  }
+
+  .btn-login {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .links a, .criar-conta {
+    font-size: 13px;
+  }
+
+  .remember {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+}
