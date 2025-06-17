@@ -1,30 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Login Painel de Ideias</title>
-    <link rel="stylesheet" href="styles.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 </head>
 <body>
-    <div class="container">
-        <div class="login-box">
-            <h1>🧠 Painel de Ideias</h1>
-            <h3>Entre com sua Conta</h3>
-        <form action="">
-              <label>
-        <ion-icon name="person-outline"></ion-icon> Usuário
-          <input type="text" placeholder="E-mail ou nome" required />
-        </label>
-
+  <div class="container">
+    <div class="login-box">
+      <h1>
+        <img
+          src="assets/brain_1f9e0.png"
+          alt="Ícone cérebro"
+          class="icon-cerebro"
+        />
+        Painel de Ideias
+      </h1>
+      <h3>Entre com sua Conta</h3>
+      <form action="">
         <label>
-            <ion-icon name="key-outline"></ion-icon> Senha
-            <input type="password" placeholder="Digite sua Senha" required>
-        </label>
+  <div>
+    <ion-icon name="person-outline"></ion-icon> Usuário
+  </div>
+  <input type="text" placeholder="E-mail ou nome" required />
+</label>
+
+<label>
+  <div>
+    <ion-icon name="key-outline"></ion-icon> Senha
+  </div>
+  <input type="password" placeholder="Digite sua Senha" required />
+</label>
+
 
         <div class="remember">
-             <input type="checkbox" id="remember" />   Mantenha-me conectado
+          <input type="checkbox" id="remember" /> Mantenha-me conectado
           <label for="remember"></label>
         </div>
 
@@ -34,13 +55,17 @@
           <a href="#" class="criar-conta">Criar nova conta</a>
           <a href="#">Esqueci minha senha</a>
         </div>
-
-        </form>
+      </form>
     </div>
-        
-    </div>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </div>
 
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
 </body>
 </html>
