@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Untitled\ design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+     margin-bottom: 50px;
+}
+
+h3{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.login-box{
+   
+    background-color: rgb(252, 252, 252);
+    padding: 50px;
+    border-radius: 4px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+form label{
+    display: block;
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+form label ion-icon{
+    margin-right: 2px;
+
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn-login{
+    width: 100%;
+    background: #f88db0;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-login:hover {
+  background: #ec407a;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.criar-conta{
+    text-decoration: none;
+    color: #f88db0;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: center;
+}
+
+a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
