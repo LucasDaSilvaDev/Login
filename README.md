@@ -19,8 +19,6 @@ O foco principal foi criar uma tela **centralizada**, com visual limpo e moderno
 - 🎨 Interface responsiva e agradável
 - 💻 Design baseado em protótipo do Figma
 - 🧭 Layout centralizado na tela com CSS moderno
-- 🔒 Campos de login com ícones e máscara de senha
-- 📄 Estrutura pronta para integrar com back-end
 
 ---
 
